@@ -1,1 +1,11 @@
-/*# sourceMappingURL=estilos.css.map */
+.bg-primario {
+  background-color: #01110a; }
+
+.bg-secundario {
+  background-color: #ba2d0b; }
+
+header .bg-agat {
+  background-color: aqua; }
+  header .bg-agat div .agat-logo {
+    width: 100px;
+    height: 60px; }
