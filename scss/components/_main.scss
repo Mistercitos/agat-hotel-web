@@ -1,0 +1,19 @@
+.seccion-de-hero {
+    max-width: 1920px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+    background-attachment: fixed;
+    margin-bottom: 200px;
+
+    .titulo-hero {
+        text-align: center;
+        color: #fff;
+    }
+}

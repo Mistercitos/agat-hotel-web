@@ -1,11 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #d3d3d3;
+  font-family: "Montserrat", sans-serif; }
+
 .bg-primario {
   background-color: #01110a; }
 
 .bg-secundario {
   background-color: #ba2d0b; }
 
-header .bg-agat {
-  background-color: aqua; }
-  header .bg-agat div .agat-logo {
-    width: 100px;
-    height: 60px; }
+.container-fluid {
+  padding: 10px 100px 10px 100px; }
+
+.navbar-nav {
+  margin-right: 20px; }
+
+.seccion-de-hero {
+  max-width: 1920px;
+  height: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-origin: padding-box;
+  background-attachment: fixed;
+  margin-bottom: 200px; }
+  .seccion-de-hero .titulo-hero {
+    text-align: center;
+    color: #fff; }

@@ -1,14 +1,7 @@
-header {
-    
-    .bg-agat {
-        background-color: aqua;
+.container-fluid {
+    padding: 10px 100px 10px 100px;
+}
 
-        div {
-
-            .agat-logo {
-                width: 100px;
-                height: 60px;
-            }
-        }
-    }
+.navbar-nav {
+    margin-right: 20px;
 }
