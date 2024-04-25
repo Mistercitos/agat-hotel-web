@@ -102,3 +102,16 @@ body {
     margin-bottom: 20px; }
   .contacto-info iframe {
     border-radius: 20px; }
+
+/** Regular Desktop */
+/** Macbook Air */
+/** Ipad Pro 12.9" */
+/** Ipad Pro 11" */
+/** Ipad Mini 8.3  */
+/** Iphone Pro Max 14 & 15  */
+@media (max-width: 430px) {
+  .container-fluid {
+    padding: 10px 20px 10px 20px; } }
+
+/** Iphone 14 & 15  */
+/** Iphone SE  */
