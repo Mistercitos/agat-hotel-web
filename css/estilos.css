@@ -22,7 +22,7 @@ body {
 .seccion-de-hero {
   max-width: 1920px;
   height: 600px;
-  background-color: black;
+  background-color: #01110a;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -34,4 +34,71 @@ body {
   margin-bottom: 200px; }
   .seccion-de-hero .titulo-hero {
     text-align: center;
-    color: #fff; }
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+    margin: 0px 150px 80px 150px; }
+  .seccion-de-hero .formulario-hero {
+    background-color: #fff;
+    max-width: 80%;
+    height: 100px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    position: absolute;
+    top: 640px; }
+    .seccion-de-hero .formulario-hero .form-floating {
+      margin: 0px 10px 0px 10px; }
+    .seccion-de-hero .formulario-hero .btn {
+      color: #fff;
+      margin: 0px 10px 0px 10px; }
+
+.contacto-hero {
+  background-color: #01110a;
+  max-width: 1920px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-bottom: 100px; }
+  .contacto-hero .titulo-hero {
+    text-align: left;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 80px;
+    margin-left: 100px; }
+  .contacto-hero .contacto-form {
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: fixed;
+    top: 150px;
+    left: 1300px; }
+    .contacto-hero .contacto-form .titulo-formulario {
+      font-size: 22px;
+      color: #444444;
+      margin: 10px 0px 0px 0px; }
+    .contacto-hero .contacto-form .form-floating {
+      margin: 10px 0px 10px 0px; }
+    .contacto-hero .contacto-form .btn {
+      color: #fff;
+      margin: 10px 0px 10px 0px; }
+
+/** Contacto  */
+.contacto-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0px 0px 200px 100px; }
+  .contacto-info h2 {
+    color: #01110a;
+    font-size: 24px;
+    margin-bottom: 20px; }
+  .contacto-info iframe {
+    border-radius: 20px; }

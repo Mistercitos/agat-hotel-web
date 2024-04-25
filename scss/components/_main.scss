@@ -1,7 +1,7 @@
 .seccion-de-hero {
     max-width: 1920px;
     height: 600px;
-    background-color: black;
+    background-color: $color-principal;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -14,6 +14,96 @@
 
     .titulo-hero {
         text-align: center;
-        color: #fff;
+        color: $color-blanco;
+        font-size: 52px;
+        font-weight: 600;
+        margin: 0px 150px 80px 150px;
+    }
+
+    .formulario-hero {
+        background-color: $color-blanco;
+        max-width: 80%;
+        height: 100px;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 10px;
+        position: absolute;
+        top: 640px;
+
+        .form-floating {
+            margin: 0px 10px 0px 10px;
+        }
+
+        .btn {
+            color: $color-blanco;
+            margin: 0px 10px 0px 10px;
+        }
+    }
+}
+
+.contacto-hero {
+    background-color: $color-principal;
+    max-width: 1920px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 100px;
+
+    .titulo-hero {
+        text-align: left;
+        color: $color-blanco;
+        font-size: 42px;
+        font-weight: 600;
+        margin-bottom: 80px;
+        margin-left: 100px;
+    }
+
+    .contacto-form {
+        width: 500px;
+        padding: 20px;
+        background-color: $color-blanco;
+        border-radius: 10px;
+        position: fixed;
+        top: 150px;
+        left: 1300px;
+
+        .titulo-formulario {
+            font-size: 22px;
+            color: $color-texto;
+            margin: 10px 0px 0px 0px;
+        }
+
+        .form-floating {
+            margin: 10px 0px 10px 0px;
+        }
+
+        .btn {
+            color: $color-blanco;
+            margin: 10px 0px 10px 0px;
+        }
+    }
+}
+
+/** Contacto  */
+
+.contacto-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0px 0px 200px 100px;
+
+    h2 {
+        color: $color-principal;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        border-radius: 20px;
     }
 }
