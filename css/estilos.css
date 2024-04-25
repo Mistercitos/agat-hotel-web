@@ -104,14 +104,112 @@ body {
     border-radius: 20px; }
 
 /** Regular Desktop */
+@media (max-width: 1440px) {
+  .container-fluid {
+    padding: 10px 80px 10px 80px; } }
+
 /** Macbook Air */
+@media (max-width: 1280px) {
+  .container-fluid {
+    padding: 10px 50px 10px 50px; } }
+
 /** Ipad Pro 12.9" */
+@media (max-width: 1024px) {
+  .container-fluid {
+    padding: 10px 40px 10px 40px; } }
+
 /** Ipad Pro 11" */
+@media (max-width: 834px) {
+  .container-fluid {
+    padding: 10px 40px 10px 40px; } }
+
 /** Ipad Mini 8.3  */
+@media (max-width: 744px) {
+  .container-fluid {
+    padding: 10px 40px 10px 40px; } }
+
 /** Iphone Pro Max 14 & 15  */
 @media (max-width: 430px) {
   .container-fluid {
-    padding: 10px 20px 10px 20px; } }
+    padding: 10px 20px 10px 20px; }
+  .seccion-de-hero {
+    max-width: 430px;
+    height: 400px;
+    margin-bottom: 100px; }
+    .seccion-de-hero .titulo-hero {
+      font-size: 34px;
+      margin: 0px 50px 80px 50px; }
+    .seccion-de-hero .formulario-hero {
+      max-width: 95%;
+      height: 400px;
+      padding: 10px 20px 10px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      position: absolute;
+      top: 440px; }
+      .seccion-de-hero .formulario-hero .form-floating {
+        width: 90%;
+        margin: 10px 0px 10px 0px; }
+      .seccion-de-hero .formulario-hero .btn {
+        width: 90%;
+        margin: 0px 10px 0px 10px; } }
 
 /** Iphone 14 & 15  */
+@media (max-width: 390px) {
+  .container-fluid {
+    padding: 10px 10px 10px 10px; }
+  .seccion-de-hero {
+    max-width: 390px;
+    height: 400px;
+    margin-bottom: 100px; }
+    .seccion-de-hero .titulo-hero {
+      font-size: 32px;
+      margin: 0px 50px 80px 50px; }
+    .seccion-de-hero .formulario-hero {
+      max-width: 90%;
+      height: 400px;
+      padding: 10px 20px 10px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      position: absolute;
+      top: 440px; }
+      .seccion-de-hero .formulario-hero .form-floating {
+        width: 90%;
+        margin: 10px 0px 10px 0px; }
+      .seccion-de-hero .formulario-hero .btn {
+        width: 90%;
+        margin: 0px 10px 0px 10px; } }
+
 /** Iphone SE  */
+@media (max-width: 320px) {
+  .container-fluid {
+    padding: 10px 10px 10px 10px; }
+  .seccion-de-hero {
+    max-width: 320px;
+    height: 400px;
+    margin-bottom: 100px; }
+    .seccion-de-hero .titulo-hero {
+      font-size: 24px;
+      margin: 0px 50px 80px 50px; }
+    .seccion-de-hero .formulario-hero {
+      background-color: #fff;
+      max-width: 80%;
+      height: 100px;
+      padding: 10px 20px 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      position: absolute;
+      top: 640px; }
+      .seccion-de-hero .formulario-hero .form-floating {
+        margin: 0px 10px 0px 10px; }
+      .seccion-de-hero .formulario-hero .btn {
+        color: #fff;
+        margin: 0px 10px 0px 10px; } }
