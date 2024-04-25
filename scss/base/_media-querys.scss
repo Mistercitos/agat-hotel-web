@@ -24,6 +24,40 @@
     .container-fluid {
         padding: 10px 40px 10px 40px;
     }
+
+    .seccion-de-hero {
+        max-width: 430px;
+        height: 400px;
+        margin-bottom: 100px;
+    
+        .titulo-hero {
+            font-size: 34px;
+            margin: 0px 50px 80px 50px;
+        }
+    
+        .formulario-hero {
+            max-width: 95%;
+            height: 400px;
+            padding: 10px 20px 10px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 10px;
+            position: absolute;
+            top: 440px;
+    
+            .form-floating {
+                width: 90%;
+                margin: 10px 0px 10px 0px;
+            }
+    
+            .btn {
+                width: 90%;
+                margin: 0px 10px 0px 10px;
+            }
+        }
+    }
 }
 
 /** Ipad Mini 8.3  */
@@ -31,6 +65,39 @@
 
     .container-fluid {
         padding: 10px 40px 10px 40px;
+    }
+
+    .seccion-de-hero {
+        max-width: 744px;
+        height: 400px;
+        margin-bottom: 100px;
+    
+        .titulo-hero {
+            font-size: 34px;
+            margin: 0px 50px 80px 50px;
+        }
+    
+        .formulario-hero {
+            max-width: 95%;
+            height: 400px;
+            padding: 10px 20px 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 10px;
+            position: absolute;
+            top: 440px;
+    
+            .form-floating {
+                width: 90%;
+                margin: 10px 0px 10px 0px;
+            }
+    
+            .btn {
+                width: 90%;
+                margin: 0px 10px 0px 10px;
+            }
+        }
     }
 }
 

@@ -121,12 +121,59 @@ body {
 /** Ipad Pro 11" */
 @media (max-width: 834px) {
   .container-fluid {
-    padding: 10px 40px 10px 40px; } }
+    padding: 10px 40px 10px 40px; }
+  .seccion-de-hero {
+    max-width: 430px;
+    height: 400px;
+    margin-bottom: 100px; }
+    .seccion-de-hero .titulo-hero {
+      font-size: 34px;
+      margin: 0px 50px 80px 50px; }
+    .seccion-de-hero .formulario-hero {
+      max-width: 95%;
+      height: 400px;
+      padding: 10px 20px 10px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      position: absolute;
+      top: 440px; }
+      .seccion-de-hero .formulario-hero .form-floating {
+        width: 90%;
+        margin: 10px 0px 10px 0px; }
+      .seccion-de-hero .formulario-hero .btn {
+        width: 90%;
+        margin: 0px 10px 0px 10px; } }
 
 /** Ipad Mini 8.3  */
 @media (max-width: 744px) {
   .container-fluid {
-    padding: 10px 40px 10px 40px; } }
+    padding: 10px 40px 10px 40px; }
+  .seccion-de-hero {
+    max-width: 744px;
+    height: 400px;
+    margin-bottom: 100px; }
+    .seccion-de-hero .titulo-hero {
+      font-size: 34px;
+      margin: 0px 50px 80px 50px; }
+    .seccion-de-hero .formulario-hero {
+      max-width: 95%;
+      height: 400px;
+      padding: 10px 20px 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      position: absolute;
+      top: 440px; }
+      .seccion-de-hero .formulario-hero .form-floating {
+        width: 90%;
+        margin: 10px 0px 10px 0px; }
+      .seccion-de-hero .formulario-hero .btn {
+        width: 90%;
+        margin: 0px 10px 0px 10px; } }
 
 /** Iphone Pro Max 14 & 15  */
 @media (max-width: 430px) {
