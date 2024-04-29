@@ -15,3 +15,8 @@ $color-etiquetas: #969696;
 .bg-secundario {
     background-color: $color-secundario;
 }
+
+.bg-secundario:hover {
+    background-color: #861f05;
+    color: $color-blanco;
+}

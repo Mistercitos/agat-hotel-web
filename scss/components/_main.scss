@@ -104,17 +104,198 @@
         margin-bottom: 30px;
     }
 
-    .ofertas-de-tempoorada-galeria {
+    .oferta-temporada-galeria {
         display: flex;
+        
+        .oferta-temporada-card {
+        width: 250px;
+        height: 250px;
+        border-radius: 8px;
+        margin: 0px 10px 0px 10px;
+        background-size: cover;
+        background-position: center;
+        background-origin: padding-box;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-decoration: none;
 
-        .ofertas-de-temporada-card {
-            width: 200px;
-            height: 200px;
-            border-radius: 8px;
-            margin: 0px 10px 0px 10px;
+        h3 {
+            color: $color-blanco;
+            font-size: 20px;
+            text-align: right;
+            margin: 10px;
+            
+        }
+        }
+    }
+}
+
+.nuestro-hotel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+
+    .nuestro-izquierda {
+        width: 50%;
+        height: 500px;
+        border-radius: 0px 20px 20px 0px;
+        background-size: cover;
+        background-position: center;
+        background-origin: padding-box;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 20px;
+            background-color: $color-principal;
+            border-radius: 10px;
+            margin: 0px 20px 20px 0px;
+
+            h3 {
+                color: $color-blanco;
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+
+            .btn {
+                color: $color-blanco;
+                margin: 10px 0px 10px 0px;
+                font-weight: 400;
+            }
         }
     }
 
+    .nuestro-derecha {
+        width: 50%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .meet-pucon-1 {
+            width: 80%;
+            height: 220px;
+            border-radius: 20px;
+            background-color: $color-principal;
+            display: flex;
+
+            img {
+                width: 250px;
+                border-radius: 20px 0px 0px 20px;
+            }
+            
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 20px;
+
+                h3 {
+                    color: $color-blanco;
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                }
+
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .meet-pucon-2 {
+            width: 80%;
+            height: 220px;
+            border-radius: 20px;
+            background-color: $color-principal;
+            display: flex;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 20px;
+    
+                h3 {
+                    color: $color-blanco;
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                }
+
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
+    
+            img {
+                    width: 250px;
+                    border-radius: 0px 20px 20px 0px;
+            }
+                
+            
+        }
+    }
+}
+
+.nuestras-actividades {
+    padding: 0px 100px 0px 100px;
+    margin: 0px 100px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .titulo-seccion {
+        color: $color-texto;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .galeria-actividades-home {
+        display: flex;
+        justify-content: space-around;
+
+        .card {
+            background-color: $color-principal;
+            margin: 0px 10px 0px 10px;
+            height: 300px;
+            border: 0;
+            border-radius: 12px;
+
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                .card-title {
+                    color: $color-blanco;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                }
+
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+    }
 }
 
 /** Contacto  */

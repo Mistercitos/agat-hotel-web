@@ -78,7 +78,7 @@
 
     .seccion-de-hero {
         height: 400px;
-        margin-bottom: 100px;
+        margin-bottom: 400px;
     
         .titulo-hero {
             font-size: 32px;
@@ -105,6 +105,23 @@
             .btn {
                 width: 90%;
                 margin: 0px 10px 0px 10px;
+            }
+        }
+    }
+
+    .ofertas-de-temporada {
+        padding: 0px 20px 0px 20px;
+        margin: 0px 100px 200px 100px;
+
+    
+        .oferta-temporada-galeria {
+            display: flex;
+            flex-direction: column;
+            
+            .oferta-temporada-card {
+            width: 350px;
+            height: 200px;
+            margin: 10px 0px 10px 0px;
             }
         }
     }
@@ -144,6 +161,36 @@
             .btn {
                 color: $color-blanco;
                 margin: 0px 10px 0px 10px;
+            }
+        }
+    }
+
+    .ofertas-de-temporada {
+        padding: 0px 20px 0px 20px;
+        margin: 0px 100px 200px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+        .titulo-seccion {
+            color: $color-texto;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+    
+        .oferta-temporada-galeria {
+            display: flex;
+            flex-direction: column;
+            
+            .oferta-temporada-card {
+            width: 250px;
+            height: 250px;
+            border-radius: 8px;
+            margin: 10px 0px 10px 0px;
+            background-size: cover;
+            background-position: center;
+            background-origin: padding-box;
             }
         }
     }

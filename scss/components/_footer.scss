@@ -1,0 +1,33 @@
+footer {
+    background-color: $color-principal;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a {
+        img {
+            width: 100px;
+        }
+    }
+    h5 {
+        color: #fff;
+        font-style: italic;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            margin: 0px 6px 0px 6px;
+            display: flex;
+            align-items: center;
+            img {
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+}
