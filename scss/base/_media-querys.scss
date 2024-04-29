@@ -109,9 +109,11 @@
         }
     }
 
+/** Index */
+
     .ofertas-de-temporada {
         padding: 0px 20px 0px 20px;
-        margin: 0px 100px 200px 100px;
+        margin: 0px 100px 150px 100px;
 
     
         .oferta-temporada-galeria {
@@ -125,73 +127,614 @@
             }
         }
     }
-}
 
-/** Iphone SE  */
-@media (max-width:320px) {
-    .container-fluid {
-        padding: 10px 10px 10px 10px;
-    }
-
-    .seccion-de-hero {
-        height: 400px;
-        margin-bottom: 100px;
-    
-        .titulo-hero {
-            font-size: 24px;
-            margin: 0px 50px 80px 50px;
-        }
-    
-        .formulario-hero {
-            background-color: $color-blanco;
-            max-width: 80%;
-            height: 100px;
-            padding: 10px 20px 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            border-radius: 10px;
-            position: absolute;
-            top: 640px;
-    
-            .form-floating {
-                margin: 0px 10px 0px 10px;
-            }
-    
-            .btn {
-                color: $color-blanco;
-                margin: 0px 10px 0px 10px;
-            }
-        }
-    }
-
-    .ofertas-de-temporada {
-        padding: 0px 20px 0px 20px;
-        margin: 0px 100px 200px 100px;
-        display: flex;
+    .nuestro-hotel {
         flex-direction: column;
-        align-items: center;
+        margin-bottom: 150px;
     
+        .nuestro-izquierda {
+            width: 390px;
+            height: 500px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
     
-        .titulo-seccion {
-            color: $color-texto;
-            font-weight: 400;
-            margin-bottom: 30px;
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                background-color: $color-principal;
+                border-radius: 8px;
+
+    
+                h3 {
+                    color: $color-blanco;
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                }
+    
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
         }
     
-        .oferta-temporada-galeria {
+        .nuestro-derecha {
+            width: 390px;
+            height: 500px;
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+    
+            .meet-pucon-1 {
+                width: 370px;
+                height: 220px;
+                border-radius: 20px;
+                background-color: $color-principal;
+                display: flex;
+    
+                img {
+                    width: 220px;
+                    border-radius: 20px 0px 0px 20px;
+                }
+                
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 20px;
+    
+                    h3 {
+                        color: $color-blanco;
+                        margin-bottom: 20px;
+                        font-size: 20px;
+                    }
+    
+                    .btn {
+                        color: $color-blanco;
+                        margin: 10px 0px 10px 0px;
+                        font-weight: 400;
+                    }
+                }
+            }
+    
+            .meet-pucon-2 {
+                width: 80%;
+                height: 220px;
+                border-radius: 20px;
+                background-color: $color-principal;
+                display: flex;
+    
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 20px;
+        
+                    h3 {
+                        color: $color-blanco;
+                        margin-bottom: 20px;
+                        font-size: 20px;
+                    }
+    
+                    .btn {
+                        color: $color-blanco;
+                        margin: 10px 0px 10px 0px;
+                        font-weight: 400;
+                    }
+                }
+        
+                img {
+                        width: 250px;
+                        border-radius: 0px 20px 20px 0px;
+                }
+                    
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+.nuestro-hotel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+
+    .nuestro-izquierda {
+        width: 50%;
+        height: 500px;
+        border-radius: 0px 20px 20px 0px;
+        background-size: cover;
+        background-position: center;
+        background-origin: padding-box;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 20px;
+            background-color: $color-principal;
+            border-radius: 10px;
+            margin: 0px 20px 20px 0px;
+
+            h3 {
+                color: $color-blanco;
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+
+            .btn {
+                color: $color-blanco;
+                margin: 10px 0px 10px 0px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .nuestro-derecha {
+        width: 50%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .meet-pucon-1 {
+            width: 80%;
+            height: 220px;
+            border-radius: 20px;
+            background-color: $color-principal;
+            display: flex;
+
+            img {
+                width: 250px;
+                border-radius: 20px 0px 0px 20px;
+            }
             
-            .oferta-temporada-card {
-            width: 250px;
-            height: 250px;
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 20px;
+
+                h3 {
+                    color: $color-blanco;
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                }
+
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .meet-pucon-2 {
+            width: 80%;
+            height: 220px;
+            border-radius: 20px;
+            background-color: $color-principal;
+            display: flex;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 20px;
+    
+                h3 {
+                    color: $color-blanco;
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                }
+
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
+    
+            img {
+                    width: 250px;
+                    border-radius: 0px 20px 20px 0px;
+            }
+                
+            
+        }
+    }
+}
+
+.nuestras-actividades {
+    padding: 0px 100px 0px 100px;
+    margin: 0px 100px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .titulo-seccion {
+        color: $color-texto;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .galeria-actividades-home {
+        display: flex;
+        justify-content: space-around;
+
+        .card {
+            background-color: $color-principal;
+            margin: 0px 10px 0px 10px;
+            height: 300px;
+            border: 0;
+            border-radius: 12px;
+
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                .card-title {
+                    color: $color-blanco;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                }
+
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+    }
+}
+
+/** Ofertas */
+
+.oferta-destacada-card {
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 500px;
+    height: 250px;
+    margin: 0px 20px 0px 20px;
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+
+    h3 {
+        color: $color-blanco;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .btn {
+        color: $color-blanco;
+    }
+}
+
+.aprovecha-verano {
+    padding: 0px 100px 0px 100px;
+    margin: 0px 100px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .titulo-seccion {
+        color: $color-texto;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .galeria-ofertas {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        position: relative;
+        margin: 0px 100px 0px 100px;
+
+        .oferta-card {
+            width: 800px;
+            height: 200px;
             border-radius: 8px;
-            margin: 10px 0px 10px 0px;
+            background-color: $color-principal;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            img {
+                border-radius: 8px 0px 0px 8px;
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                background-position: center;
+                background-origin: padding-box;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 20px;
+    
+                h3 {
+                    color: $color-blanco;
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                }
+
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.unete-club {
+    margin: 0px 100px 200px 100px;
+    display: flex;
+    justify-content: center;
+
+    .club-card {
+        background-color: $color-blanco;
+        width: 800px;
+        height: 350px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+
+        .imagen-club {
+            width: 300px;
+            height: 350px;
+            border-radius: 8px 0px 0px 8px;
             background-size: cover;
             background-position: center;
             background-origin: padding-box;
+        }
+
+        .club-info {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+
+            .btn {
+                color: $color-blanco;
+                margin: 10px 0px 10px 0px;
+                font-weight: 400;
             }
         }
+    }
+}
+
+/** Actividades */
+
+.activities-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .titulo-seccion {
+        color: $color-principal;
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    .activities-gallery {
+        display: grid;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        margin-bottom: 200px;
+
+        .activities-card {
+            display: flex;
+            align-items: center;
+            width: 800px;
+            height: 200px;
+            background-color: $color-blanco;
+            border-radius: 8px;
+
+            img {
+                width: 300px;
+                height: 200px;
+                background-size: cover;
+                background-position: center;
+                background-origin: padding-box;
+                border-radius: 8px 0px 0px 8px;
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px;
+
+                .activities-info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    h3 {
+                        color: $color-texto;
+                        margin-bottom: 20px;
+                        text-align: left;
+                        font-size: 22px;
+                    }
+
+                    p {
+                        color: $color-texto;
+                    }
+                }
+
+                div {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    div {
+                        height: 150px;
+                        width: 1px;
+                        background-color: $color-secundario;
+                    }
+
+                    .btn {
+                        margin-left: 30px;
+                        color: $color-blanco;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** Nuestro Hotel */
+
+.nuestra-historia {
+    width: 60%;
+    font-size: 16px;
+    text-align: center;
+    color: $color-texto;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.video-pucon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    
+    iframe {
+        border-radius: 20px;
+    }
+}
+
+.tipo-habitacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+
+    .titulo-seccion {
+        color: $color-principal;
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .habitacion-gallery {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .card-habitacion {
+            background-color: $color-blanco;
+            border-radius: 8px;
+            width: 300px;
+            margin: 0px 20px 0px 20px;
+
+            img {
+                width: 300px;
+                height: 200px;
+                border-radius: 8px 8px 0px 0px;
+                background-size: cover;
+                background-position: center;
+                background-origin: padding-box;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin: 20px;
+                padding-bottom: 20px;
+
+                h3 {
+                    color: $color-texto;
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: $color-texto;
+                    font-style: italic;
+                    font-weight: 700;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+
+                    span {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+
+                a {
+                    padding: 12px 20px 12px 20px;
+                    border: 2px solid $color-secundario;
+                    color: $color-secundario;
+                    font-weight: 600;
+                    border-radius: 10px;
+                    text-decoration: none;
+                    width: 80%;
+                    text-align: center;
+                }
+
+                a:hover {
+                    background-color: $color-secundario;
+                    color: $color-blanco;
+                }
+            }
+        }
+    }
+}
+
+/** Contacto  */
+
+.contacto-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0px 0px 200px 100px;
+
+    h2 {
+        color: $color-principal;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        border-radius: 20px;
     }
 }
