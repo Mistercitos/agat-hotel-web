@@ -981,8 +981,9 @@ footer {
   .container-fluid {
     padding: 10px 10px 10px 10px; }
   .seccion-de-hero {
-    height: 400px;
-    margin-bottom: 100px; }
+    height: 600px;
+    margin-bottom: 300px;
+    justify-content: center; }
     .seccion-de-hero .titulo-hero {
       font-size: 32px;
       margin: 0px 50px 80px 50px; }
@@ -996,7 +997,7 @@ footer {
       justify-content: space-around;
       border-radius: 10px;
       position: absolute;
-      top: 440px; }
+      top: 480px; }
       .seccion-de-hero .formulario-hero .form-floating {
         width: 90%;
         margin: 10px 0px 10px 0px; }
@@ -1006,7 +1007,8 @@ footer {
   /** Index */
   .ofertas-de-temporada {
     padding: 0px 20px 0px 20px;
-    margin: 400px 100px 100px 100px; }
+    margin: 0px 100px 100px 100px;
+    margin-top: 4000px; }
     .ofertas-de-temporada .oferta-temporada-galeria {
       display: flex;
       flex-direction: column; }
