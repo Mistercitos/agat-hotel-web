@@ -1,39 +1,8 @@
-/** Regular Desktop */
-@media (max-width:1440px) {
-    .container-fluid {
-        padding: 10px 80px 10px 80px;
-    }
-}
-
-/** Macbook Air */
-@media (max-width:1280px) {
-    .container-fluid {
-        padding: 10px 50px 10px 50px;
-    }
-}
-
-/** Ipad Pro 12.9" */
-@media (max-width:1024px) {
-    .container-fluid {
-        padding: 10px 40px 10px 40px;
-    }
-}
-
-/** Ipad Pro 11" */
-@media (max-width:834px) {
-    
-}
-
-/** Ipad Mini 8.3  */
-@media (max-width:744px) {
-
-}
-
 /** Iphone Pro Max 14 & 15  */
 @media (max-width:430px) {
 
     .container-fluid {
-        padding: 10px 20px 10px 20px;
+        padding: 10px 10px 10px 10px;
     }
 
     .seccion-de-hero {
@@ -41,12 +10,12 @@
         margin-bottom: 100px;
     
         .titulo-hero {
-            font-size: 34px;
+            font-size: 32px;
             margin: 0px 50px 80px 50px;
         }
     
         .formulario-hero {
-            max-width: 95%;
+            max-width: 90%;
             height: 400px;
             padding: 10px 20px 10px 20px;
             display: flex;
@@ -69,6 +38,577 @@
         }
     }
 
+/** Index */
+
+    .ofertas-de-temporada {
+        padding: 0px 20px 0px 20px;
+        margin: 400px 100px 100px 100px;
+
+    
+        .oferta-temporada-galeria {
+            display: flex;
+            flex-direction: column;
+            
+            .oferta-temporada-card {
+            width: 350px;
+            height: 200px;
+            margin: 10px 0px 10px 0px;
+            }
+        }
+    }
+
+    .nuestro-hotel {
+        flex-direction: column;
+        margin-bottom: 100px;
+    
+        .nuestro-izquierda {
+            width: 390px;
+            height: 500px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 80px;
+            border-radius: 0px;
+    
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                background-color: $color-principal;
+                border-radius: 8px;
+
+    
+                h3 {
+                    color: $color-blanco;
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                }
+    
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
+        }
+    
+        .nuestro-derecha {
+            width: 390px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 100px;
+    
+            .meet-pucon-1 {
+                width: 370px;
+                height: 320px;
+                border-radius: 20px;
+                background-color: $color-principal;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+    
+                img {
+                    width: 370px;
+                    height: 150px;
+                    border-radius: 10px 10px 0px 0px;
+                }
+                
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 20px;
+    
+                    h3 {
+                        color: $color-blanco;
+                        margin-bottom: 20px;
+                        font-size: 16px;
+                    }
+    
+                    .btn {
+                        color: $color-blanco;
+                        margin: 10px 0px 10px 0px;
+                        font-weight: 400;
+                    }
+                }
+            }
+    
+            .meet-pucon-2 {
+                width: 370px;
+                height: 320px;
+                border-radius: 20px;
+                background-color: $color-principal;
+                display: flex;
+                flex-direction: column;
+    
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 20px;
+        
+                    h3 {
+                        color: $color-blanco;
+                        margin-bottom: 20px;
+                        font-size: 16px;
+                    }
+    
+                    .btn {
+                        color: $color-blanco;
+                        margin: 10px 0px 10px 0px;
+                        font-weight: 400;
+                    }
+                }
+        
+                img {
+                    width: 370px;
+                    height: 150px;
+                    border-radius: 0px 0px 10px 10px;
+                }
+                    
+                
+            }
+        }
+    }
+
+    .nuestras-actividades {
+        padding: 0px 100px 0px 100px;
+        margin: 0px 100px 100px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            
+            
+        .titulo-seccion {
+            color: $color-texto;
+            font-weight: 400;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+            
+        .galeria-actividades-home {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+            .card {
+                background-color: $color-principal;
+                margin: 10px 0px 10px 0px;
+                height: 300px;
+                border: 0;
+                border-radius: 12px;
+            
+                .card-body {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+            
+                    .card-title {
+                        color: $color-blanco;
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 20px;
+                    }
+            
+                    .btn {
+                        color: $color-blanco;
+                        margin: 10px 0px 10px 0px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+    /** Ofertas*/
+    .ofertas-de-temporada {
+        margin: 0px 20px 100px 20px;
+    }
+    .oferta-destacada-card {
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 370px;
+        height: 250px;
+        margin: 0px 20px 30px 20px;
+        background-size: cover;
+        background-position: center;
+        background-origin: padding-box;
+    
+        h3 {
+            color: $color-blanco;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+    
+        .btn {
+            color: $color-blanco;
+        }
+    }
+    
+    .aprovecha-verano {
+        padding: 0px 100px 0px 100px;
+        margin: 0px 10px 100px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .titulo-seccion {
+            color: $color-texto;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+    
+        .galeria-ofertas {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+            position: relative;
+            margin: 0px 10px 0px 10px;
+    
+            .oferta-card {
+                width: 370px;
+                height: 360px;
+                border-radius: 8px;
+                background-color: $color-principal;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-bottom: 20px;
+    
+                img {
+                    border-radius: 8px 8px 0px 0px;
+                    width: 370px;
+                    height: 200px;
+                    background-size: cover;
+                    background-position: center;
+                    background-origin: padding-box;
+                }
+    
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 20px;
+        
+                    h3 {
+                        color: $color-blanco;
+                        margin-bottom: 20px;
+                        font-size: 20px;
+                    }
+    
+                    .btn {
+                        color: $color-blanco;
+                        margin: 10px 0px 10px 0px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    
+    .unete-club {
+        margin: 0px 10px 00px 10px;
+        display: flex;
+        justify-content: center;
+    
+        .club-card {
+            background-color: $color-blanco;
+            width: 370px;
+            height: 350px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            .imagen-club {
+                width: 370px;
+                height: 400px;
+                border-radius: 8px 8px 0px 0px;
+                background-size: cover;
+                background-position: center;
+                background-origin: padding-box;
+            }
+    
+            .club-info {
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+    
+                .btn {
+                    color: $color-blanco;
+                    margin: 10px 0px 10px 0px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+
+
+    .activities-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    
+        .titulo-seccion {
+            color: $color-principal;
+            font-size: 24px;
+            margin-bottom: 100px;
+        }
+        .activities-gallery {
+            grid-gap: 300px;
+
+            .activities-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 370px;
+                height:450px;
+                background-color: $color-blanco;
+                border-radius: 8px;
+                margin: 30px 0px 30px 0px;
+    
+                img {
+                    width: 370px;
+                    height: 200px;
+                    background-size: cover;
+                    background-position: center;
+                    background-origin: padding-box;
+                    border-radius: 8px 8px 0px 0px;
+                }
+    
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px;
+    
+                    .activities-info {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+    
+                        h3 {
+                            color: $color-texto;
+                            margin-bottom: 10px;
+                            text-align: left;
+                            font-size:18px;
+                        }
+    
+                        p {
+                            color: $color-texto;
+                            font-size: 16px;
+                        }
+                    }
+    
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin-left: 0px;
+    
+                        div {
+                            height: 0px;
+                            width: 0px;
+                            background-color: $color-blanco;
+                        }
+    
+                        .btn {
+                            width: 350px;
+                            color: $color-blanco;
+                        }
+                    }
+                }
+            }
+        }
+
+        /** Nuestro Hotel */
+
+        .nuestra-historia {
+            width: 370px;
+            font-size: 16px;
+            text-align: center;
+            color: $color-texto;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        
+        .video-pucon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 200px;
+            
+            iframe {
+                border-radius: 20px;
+                width: 370px;
+                height: 100px;
+            }
+        }
+        
+        .tipo-habitacion {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 200px;
+        
+            .titulo-seccion {
+                color: $color-principal;
+                font-size: 32px;
+                margin-bottom: 50px;
+            }
+        
+            .habitacion-gallery {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        
+                .card-habitacion {
+                    background-color: $color-blanco;
+                    border-radius: 8px;
+                    width: 300px;
+                    margin: 0px 20px 0px 20px;
+        
+                    img {
+                        width: 300px;
+                        height: 200px;
+                        border-radius: 8px 8px 0px 0px;
+                        background-size: cover;
+                        background-position: center;
+                        background-origin: padding-box;
+                    }
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 20px;
+                        padding-bottom: 20px;
+        
+                        h3 {
+                            color: $color-texto;
+                            font-size: 22px;
+                            margin-bottom: 20px;
+                        }
+        
+                        p {
+                            color: $color-texto;
+                            font-style: italic;
+                            font-weight: 700;
+                            font-size: 18px;
+                            margin-bottom: 20px;
+        
+                            span {
+                                font-size: 14px;
+                                font-weight: 500;
+                            }
+                        }
+        
+                        a {
+                            padding: 12px 20px 12px 20px;
+                            border: 2px solid $color-secundario;
+                            color: $color-secundario;
+                            font-weight: 600;
+                            border-radius: 10px;
+                            text-decoration: none;
+                            width: 80%;
+                            text-align: center;
+                        }
+        
+                        a:hover {
+                            background-color: $color-secundario;
+                            color: $color-blanco;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /** Contacto */
+
+    .contacto-hero {
+        background-color: $color-principal;
+        width: 390px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 450px;
+    
+        .titulo-hero {
+            text-align: left;
+            color: $color-blanco;
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0px 20px 80px 20px;
+        }
+    
+        .contacto-form {
+            width: 370px;
+            padding: 8px;
+            background-color: $color-blanco;
+            border-radius: 10px;
+            position: absolute;
+            top: 250px;
+            left: 0px;
+            margin: 0px 10px 0px 10px;
+    
+            .titulo-formulario {
+                font-size: 22px;
+                color: $color-texto;
+                margin: 10px 0px 0px 0px;
+            }
+    
+            .form-floating {
+                margin: 10px 0px 10px 0px;
+            }
+    
+            .btn {
+                color: $color-blanco;
+                margin: 10px 0px 10px 0px;
+            }
+        }
+    }
+
+    .contacto-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 0px 10px 100px 10px;
+    
+        h2 {
+            color: $color-principal;
+            font-size: 24px;
+            margin-bottom: 18px;
+        }
+    
+        iframe {
+            border-radius: 8px;
+            width: 370px;
+            height: 400px;
+        }
+    }
+    
     footer {
         background-color: $color-principal;
         height: 200px;
@@ -77,25 +617,30 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+
         a {
             img {
                 width: 100px;
             }
         }
+
         h5 {
             color: #fff;
             font-style: italic;
             font-size: 12px;
             font-weight: 400;
         }
+
         div {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             a {
                 margin: 0px 6px 0px 6px;
                 display: flex;
                 align-items: center;
+
                 img {
                     height: 20px;
                     width: 20px;
@@ -104,6 +649,7 @@
         }
     }
 }
+
 
 /** Iphone 14 & 15  */
 @media (max-width:390px) {
