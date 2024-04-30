@@ -402,10 +402,10 @@
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
+                        padding: 0px 20px 0px 20px;
     
                         h3 {
                             color: $color-texto;
-                            margin-bottom: 10px;
                             text-align: left;
                             font-size:18px;
                         }
@@ -419,18 +419,22 @@
                     div {
                         display: flex;
                         flex-direction: column;
-                        align-items: flex-start;
-                        margin-left: 0px;
+                        align-items: center;
+                        margin-left: 20px;
+
     
                         div {
                             height: 0px;
                             width: 0px;
                             background-color: $color-blanco;
+                            margin: 0px;
+                            padding: 0px;
                         }
     
                         .btn {
-                            width: 350px;
+                            width: 300px;
                             color: $color-blanco;
+                            margin: 0px;
                         }
                     }
                 }
@@ -546,7 +550,7 @@
 
     .contacto-hero {
         background-color: $color-principal;
-        width: 390px;
+        width: 100%;
         height: 400px;
         display: flex;
         flex-direction: column;
@@ -563,7 +567,7 @@
         }
     
         .contacto-form {
-            width: 370px;
+            width: 410px;
             padding: 8px;
             background-color: $color-blanco;
             border-radius: 10px;
@@ -604,7 +608,7 @@
     
         iframe {
             border-radius: 8px;
-            width: 370px;
+            width: 100%;
             height: 400px;
         }
     }
@@ -1083,6 +1087,7 @@
                         .btn {
                             width: 350px;
                             color: $color-blanco;
+                            margin-left: 20px;
                         }
                     }
                 }
@@ -1108,8 +1113,7 @@
             
             iframe {
                 border-radius: 20px;
-                width: 370px;
-                height: 100px;
+                
             }
         }
         
@@ -1122,7 +1126,7 @@
         
             .titulo-seccion {
                 color: $color-principal;
-                font-size: 32px;
+                font-size: 22px;
                 margin-bottom: 50px;
             }
         

@@ -802,10 +802,10 @@ footer {
           .activities-body .activities-gallery .activities-card div .activities-info {
             display: flex;
             flex-direction: column;
-            align-items: flex-start; }
+            align-items: flex-start;
+            padding: 0px 20px 0px 20px; }
             .activities-body .activities-gallery .activities-card div .activities-info h3 {
               color: #444444;
-              margin-bottom: 10px;
               text-align: left;
               font-size: 18px; }
             .activities-body .activities-gallery .activities-card div .activities-info p {
@@ -814,15 +814,18 @@ footer {
           .activities-body .activities-gallery .activities-card div div {
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
-            margin-left: 0px; }
+            align-items: center;
+            margin-left: 20px; }
             .activities-body .activities-gallery .activities-card div div div {
               height: 0px;
               width: 0px;
-              background-color: #fff; }
+              background-color: #fff;
+              margin: 0px;
+              padding: 0px; }
             .activities-body .activities-gallery .activities-card div div .btn {
-              width: 350px;
-              color: #fff; }
+              width: 300px;
+              color: #fff;
+              margin: 0px; }
     .activities-body .nuestra-historia {
       width: 370px;
       font-size: 16px;
@@ -901,7 +904,7 @@ footer {
   /** Contacto */
   .contacto-hero {
     background-color: #01110a;
-    width: 390px;
+    width: 100%;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -915,7 +918,7 @@ footer {
       font-weight: 600;
       margin: 0px 20px 80px 20px; }
     .contacto-hero .contacto-form {
-      width: 370px;
+      width: 410px;
       padding: 8px;
       background-color: #fff;
       border-radius: 10px;
@@ -944,7 +947,7 @@ footer {
       margin-bottom: 18px; }
     .contacto-info iframe {
       border-radius: 8px;
-      width: 370px;
+      width: 100%;
       height: 400px; }
   footer {
     background-color: #01110a;
@@ -1284,7 +1287,8 @@ footer {
               background-color: #fff; }
             .activities-body .activities-gallery .activities-card div div .btn {
               width: 350px;
-              color: #fff; }
+              color: #fff;
+              margin-left: 20px; }
     .activities-body .nuestra-historia {
       width: 370px;
       font-size: 16px;
@@ -1298,9 +1302,7 @@ footer {
       align-items: center;
       margin-bottom: 200px; }
       .activities-body .video-pucon iframe {
-        border-radius: 20px;
-        width: 370px;
-        height: 100px; }
+        border-radius: 20px; }
     .activities-body .tipo-habitacion {
       display: flex;
       flex-direction: column;
@@ -1309,7 +1311,7 @@ footer {
       margin-bottom: 200px; }
       .activities-body .tipo-habitacion .titulo-seccion {
         color: #01110a;
-        font-size: 32px;
+        font-size: 22px;
         margin-bottom: 50px; }
       .activities-body .tipo-habitacion .habitacion-gallery {
         display: flex;
