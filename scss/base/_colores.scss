@@ -1,6 +1,6 @@
-$color-principal: #01110a;
-$color-secundario: #ba2d0b;
-$color-fondo: #eff1ed;
+$color-principal: #06283D;
+$color-secundario: #64CCC5;
+$color-fondo: #FFF6E9;
 $color-comp-1: #6a994e;
 $color-comp-2: #a7c957;
 $color-blanco: #fff;
@@ -17,6 +17,11 @@ $color-etiquetas: #969696;
 }
 
 .bg-secundario:hover {
-    background-color: #861f05;
+    background-color: #031520;
+    color: $color-blanco;
+}
+
+.bg-primario:hover {
+    background-color: #031520;
     color: $color-blanco;
 }

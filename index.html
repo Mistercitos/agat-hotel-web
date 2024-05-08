@@ -14,10 +14,10 @@
 
 <body>
     <header>
-        <nav class="navbar sticky-top navbar-expand-lg" data-bs-theme="dark" style="background-color: #01110a;">
+        <nav class="navbar sticky-top navbar-expand-lg" data-bs-theme="dark" style="background-color: #FFF6E9;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./img/agat-logo.svg" alt="Logo" height="40">
+                    <img src="./img/agat-logo-blue.svg" alt="Logo" height="40">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -27,51 +27,57 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto p-2">
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/ofertas.html">Ofertas Especiales</a>
+                            <a class="nav-link text-dark" href="./pages/ofertas.html">Ofertas Especiales</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/actividades.html">Actividades</a>
+                            <a class="nav-link text-dark" href="./pages/actividades.html">Actividades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/hotel.html">Nuestro Hotel</a>
+                            <a class="nav-link text-dark" href="./pages/hotel.html">Nuestro Hotel</a>
                         </li>
                     </ul>
-                    <a class="btn bg-secundario" href="./pages/contacto.html">Contacto</a>
+                    <a class="btn bg-primario" href="./pages/contacto.html">Contacto</a>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="seccion-de-hero" style="background-image: url(./img/fondo-hero.png);">
-        <h1 class="titulo-hero">Explora la belleza natural como nunca antes.<br>Bienvenido a tu refugio en la montaña.
-        </h1>
-        <form action="" class="formulario-hero">
-            <div class="form-floating">
-                <input type="date" class="form-control" id="floatingPassword" placeholder="Date">
-                <label for="floatingInput">Llegada</label>
-            </div>
-            <div class="form-floating">
-                <input type="date" class="form-control" id="floatingPassword" placeholder="Date">
-                <label for="floatingPassword">Salida</label>
-            </div>
-            <div class="form-floating">
-                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                    <option selected>Selecciona una habitación</option>
-                    <option value="1">Habitación Sencilla</option>
-                    <option value="2">Habitación Estandard</option>
-                    <option value="3">Habitación en Suite</option>
-                    <option value="3">Habitación VIP</option>
-                </select>
-                <label for="floatingSelect">Tipo de Habitación</label>
-            </div>
-            <div class="form-floating">
-                <input type="number" class="form-control" id="floatingGuess" placeholder="Number">
-                <label for="floatingPassword">N° Huéspedes</label>
-            </div>
-            <button type="submit" class="btn bg-secundario">Reservar</button>
-        </form>
+    <section class="hero-home">
+        <div class="imagen-hero-principal">
+            <h1 class="titulo-hero">Explora la belleza natural como nunca antes.
+            </h1>
+            <form action="" class="formulario-hero">
+                <div class="form-floating">
+                    <input type="date" class="form-control" id="floatingPassword" placeholder="Date">
+                    <label for="floatingInput">Llegada</label>
+                </div>
+                <div class="form-floating">
+                    <input type="date" class="form-control" id="floatingPassword" placeholder="Date">
+                    <label for="floatingPassword">Salida</label>
+                </div>
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Selecciona una habitación</option>
+                        <option value="1">Habitación Sencilla</option>
+                        <option value="2">Habitación Estandard</option>
+                        <option value="3">Habitación en Suite</option>
+                        <option value="3">Habitación VIP</option>
+                    </select>
+                    <label for="floatingSelect">Tipo de Habitación</label>
+                </div>
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingGuess" placeholder="Number">
+                    <label for="floatingPassword">N° Huéspedes</label>
+                </div>
+                <button type="submit" class="btn bg-primario">Reservar</button>
+            </form>
+        </div>
     </section>
     <section class="ofertas-de-temporada">
-        <h2 class="titulo-seccion">Ofertas de Temporada</h2>
+        <div class="encabezado-seccion">
+            <h2 class="titulo-seccion">Ofertas de Temporada</h2>
+            <a href="./pages/ofertas.html" class="ver-mas-seccion">Ver todas las ofertas →</a>
+        </div>
+
         <div class="oferta-temporada-galeria">
             <a href="./pages/ofertas.html" class="oferta-temporada-card" style="background-image: url(./img/so-1.png);">
                 <h3>Paseos en el Volcán Villarrica</h3>
@@ -91,27 +97,33 @@
         </div>
     </section>
     <section class="nuestro-hotel">
-        <div class="nuestro-izquierda" style="background-image: url(./img/mp-l.png);">
+        <div class="encabezado-seccion">
+            <h2 class="titulo-seccion">Conoce Pucón</h2>
+            <a href="./pages/hotel.html" class="ver-mas-seccion">Conocer nuestro hotel →</a>
+        </div>
+        <div class="nuestro-1">
             <div>
                 <h3>Descubre la magia de Pucón <br>¡Explora y déjate cautivar!</h3>
-                <a href="/pages/hotel.html" class="btn bg-secundario">Saber más</a>
+                <p>Texto</p>
+                <a href="/pages/hotel.html" class="btn bg-primario">Saber más</a>
+            </div>
+            <div class="nuestro-img"></div>
+        </div>
+        <div class="nuestro-2">
+            <div class="nuestro-img"></div>
+            <div>
+                <h3>Descubre la serenidad entre las <br>piscinas naturales de las Termas Geométricas.</h3>
+                <p>Texto</p>
+                <a href="/pages/hotel.html" class="btn bg-primario">Saber más</a>
             </div>
         </div>
-        <div class="nuestro-derecha">
-            <div class="meet-pucon-1">
-                <img src="./img/mp-r-1.png" alt="">
-                <div>
-                    <h3>Descubre la serenidad entre las piscinas naturales de las Termas Geométricas.</h3>
-                    <a href="/pages/hotel.html" class="btn bg-secundario">Saber más</a>
-                </div>
+        <div class="nuestro-3">
+            <div>
+                <h3>Santuario El Cani: Un paraíso natural <br>esperando ser descubierto.</h3>
+                <p>Texto</p>
+                <a href="/pages/hotel.html" class="btn bg-primario">Saber más</a>
             </div>
-            <div class="meet-pucon-2">
-                <div>
-                    <h3>Santuario El Cani: Un paraíso natural esperando ser descubierto.</h3>
-                    <a href="/pages/hotel.html" class="btn bg-secundario">Saber más</a>
-                </div>
-                <img src="./img/mp-r-2.png" alt="">
-            </div>
+            <div class="nuestro-img"></div>
         </div>
     </section>
     <section class="nuestras-actividades">
