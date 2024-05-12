@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #01110a;">
+    <header class="header-secundario">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img src="../img/agat-logo.svg" alt="Logo" height="40">
@@ -35,25 +35,27 @@
                             <a class="nav-link" href="../pages/hotel.html">Nuestro Hotel</a>
                         </li>
                     </ul>
-                    <a class="btn bg-secundario" href="../pages/contacto.html" role="button">Contacto</a>
+                    <a class="btn bg-primario" href="../pages/contacto.html" role="button">Contacto</a>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="seccion-de-hero" style="background-image: url(../img/hero-offers.png);">
-        <h1 class="titulo-hero">Descubre nuestras exclusivas ofertas. <br>Sumérgete en la magia del sur de Chile y
-            disfruta de la región.
+    <section class="hero-secundario" style="background-image: url(../img/hero-offers.png);">
+        <h1 class="titulo-hero">Descubre nuestras exclusivas ofertas y <br>sumérgete en la magia del sur de Chile.
         </h1>
+        <a class="btn bg-secundario" href="./contacto.html">Reserva ahora</a>
     </section>
     <section class="ofertas-de-temporada">
-        <h2 class="titulo-seccion">Ofertas destacadas</h2>
+        <div class="encabezado-seccion">
+            <h2 class="titulo-seccion">Ofertas Destacadas</h2>
+        </div>
         <div class="oferta-temporada-galeria">
-            <div href="../pages/ofertas.html" class="oferta-destacada-card"
+            <div href="../pages/ofertas.html" class="card-oferta-destacada-1"
                 style="background-image: url(../img/offers-spa.png);">
                 <h3>Aprovecha las ofertas en SPA</h3>
                 <a href="../pages/contacto.html" class="btn bg-secundario">Saber más</a>
             </div>
-            <div href="../pages/ofertas.html" class="oferta-destacada-card"
+            <div href="../pages/ofertas.html" class="card-oferta-destacada-2"
                 style="background-image: url(../img/offers-vip.png);">
                 <h3>Disfruta de las comodides del VIP</h3>
                 <a href="../pages/contacto.html" class="btn bg-secundario">Saber más</a>
@@ -61,8 +63,71 @@
         </div>
     </section>
     <section class="aprovecha-verano">
-        <h2 class="titulo-seccion">Aprovecha el verano</h2>
-        <div class="galeria-ofertas">
+        <div class="encabezado-seccion">
+            <h2 class="titulo-seccion">Aprovecha el Verano</h2>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="galeria-ofertas">
             <div class="oferta-card">
                 <img src="../img/so-1.png" alt="">
                 <div>
@@ -98,11 +163,11 @@
                     <a href="/pages/contacto.html" class="btn bg-secundario">Saber más</a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
     <section class="unete-club">
         <div class="club-card">
-            <div class="imagen-club" style="background-image: url(../img/offers-club.jpg);"></div>
+            <div class="imagen-club"></div>
             <div class="club-info">
                 <h3>Únete al Club Agät</h3>
                 <p>Disfruta de los beneficios que te entrega el club Agät en reservaciones y actividades.</p>

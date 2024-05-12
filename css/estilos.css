@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
@@ -62,11 +63,12 @@ body {
         color: #fff;
         margin: 0px 4px 0px 4px; }
 
+/* Ofertas de Temporada */
 .ofertas-de-temporada {
   width: 100%;
   height: 500px;
   padding: 30px 60px 30px 60px;
-  margin-top: 200px; }
+  margin-top: 100px; }
   .ofertas-de-temporada .encabezado-seccion {
     display: flex;
     justify-content: space-between;
@@ -84,7 +86,7 @@ body {
     justify-content: space-around; }
     .ofertas-de-temporada .oferta-temporada-galeria .oferta-temporada-card {
       padding: 16px;
-      width: 1fr 1fr 1fr 1fr 1fr;
+      width: 300px;
       height: 250px;
       border-radius: 4px;
       margin: 0px 10px 0px 10px;
@@ -101,10 +103,11 @@ body {
         font-size: 24px;
         font-style: normal; }
 
+/* Conoce Pucón */
 .nuestro-hotel {
   width: 100%;
   padding: 50px 100px 50px 100px;
-  margin-top: 200px; }
+  margin-top: 100px; }
   .nuestro-hotel .encabezado-seccion {
     display: flex;
     justify-content: space-between;
@@ -116,7 +119,7 @@ body {
     .nuestro-hotel .encabezado-seccion .ver-mas-seccion {
       color: #06283D;
       font-style: italic;
-      text-decoration: none; }
+      text-decoration: underline; }
   .nuestro-hotel .nuestro-1 {
     display: flex;
     justify-content: space-between;
@@ -180,6 +183,133 @@ body {
       background-size: cover;
       background-position: center;
       background-origin: padding-box; }
+
+/* Nuestras Actividades */
+.nuestras-actividades {
+  width: 100%;
+  height: 500px;
+  padding: 30px 60px 30px 60px;
+  margin-top: 100px; }
+  .nuestras-actividades .encabezado-seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px; }
+    .nuestras-actividades .encabezado-seccion .titulo-seccion {
+      color: #06283D;
+      font-size: 28px; }
+    .nuestras-actividades .encabezado-seccion .ver-mas-seccion {
+      color: #06283D;
+      font-style: italic;
+      text-decoration: underline; }
+  .nuestras-actividades .galeria-actividades-home {
+    display: flex;
+    justify-content: space-around; }
+    .nuestras-actividades .galeria-actividades-home .card {
+      background-color: #06283D;
+      border: 0; }
+      .nuestras-actividades .galeria-actividades-home .card .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; }
+        .nuestras-actividades .galeria-actividades-home .card .card-body .card-title {
+          color: #fff;
+          font-size: 18px;
+          margin: 20px 0px 20px 0px; }
+
+/** Header Secundario */
+.header-secundario {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(#000, #00000000); }
+
+/* Hero Secundario*/
+.hero-secundario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-origin: padding-box;
+  background-attachment: fixed;
+  padding: 0px 100px 0px 100px; }
+  .hero-secundario .titulo-hero {
+    color: #fff;
+    font-size: 38px;
+    margin-bottom: 30px;
+    font-weight: 600; }
+  .hero-secundario .btn {
+    color: #fff; }
+
+/** Ofertas */
+/* Ofertas Destacadas */
+.ofertas-de-temporada {
+  padding: 0px 100px 0px 100px; }
+  .ofertas-de-temporada .oferta-temporada-galeria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .ofertas-de-temporada .oferta-temporada-galeria .card-oferta-destacada-1 {
+      width: 62%;
+      height: 250px;
+      border-radius: 8px;
+      background-size: cover;
+      background-position: center;
+      background-origin: padding-box;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 20px; }
+      .ofertas-de-temporada .oferta-temporada-galeria .card-oferta-destacada-1 h3 {
+        color: #fff; }
+    .ofertas-de-temporada .oferta-temporada-galeria .card-oferta-destacada-2 {
+      width: 30%;
+      height: 250px;
+      border-radius: 8px;
+      background-size: cover;
+      background-position: center;
+      background-origin: padding-box;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 20px; }
+      .ofertas-de-temporada .oferta-temporada-galeria .card-oferta-destacada-2 h3 {
+        color: #fff; }
+
+/* Aprovecha el Verano */
+.aprovecha-verano {
+  padding: 0px 100px 0px 100px; }
+  .aprovecha-verano .galeria-ofertas {
+    display: grid; }
+
+/* Unete al Club */
+.unete-club {
+  display: flex;
+  justify-content: center;
+  margin: 100px 100px 100px 100px; }
+  .unete-club .club-card {
+    background-color: #fff;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .unete-club .club-card .imagen-club {
+      width: 50%;
+      height: 100%;
+      background-image: url("../img/offers-club.jpg");
+      background-size: cover;
+      background-position: center;
+      background-origin: padding-box; }
+    .unete-club .club-card .club-info {
+      padding: 20px; }
 
 footer {
   background-color: #06283D;
