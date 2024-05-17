@@ -1,3 +1,99 @@
+@media (max-width:1650px) {
+    .contacto-hero {
+        background-color: $color-principal;
+        padding: 100px 100px 30px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 500px;
+        margin-bottom: 200px;
+    
+        .titulo-hero {
+            color: $color-blanco;
+            font-size: 32px;
+        }
+    
+        .contacto-form {
+            background-color: $color-blanco;
+            border-radius: 8px;
+            padding: 20px;
+            position: fixed;
+            top: 200px;
+            left: 900px;
+    
+            .titulo-formulario {
+                margin-bottom: 30px;
+            }
+    
+            .form-floating {
+                margin: 10px 0px 10px 0px;
+            }
+        }
+    }
+}
+
+@media (max-width:1450px) {
+    .contacto-hero {
+        background-color: $color-principal;
+        padding: 100px 100px 30px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 500px;
+        margin-bottom: 350px;
+    
+        .titulo-hero {
+            color: $color-blanco;
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    
+        .contacto-form {
+            background-color: $color-blanco;
+            border-radius: 8px;
+            padding: 20px;
+            position: unset;
+    
+            .titulo-formulario {
+                margin-bottom: 30px;
+            }
+    
+            .form-floating {
+                margin: 10px 0px 10px 0px;
+            }
+        }
+    }
+
+    .hotel-info {
+        padding: 0px 100px 100px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        h2 {
+            margin-bottom: 30px;
+        }
+    
+        .info {
+        display: flex;
+        align-items: center;
+        margin: 10px 0px 10px 0px;
+    
+            .info-icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 20px;
+            }
+    
+            h3 {
+                color: $color-texto;
+                font-size: 20px;
+            }
+        }
+    }
+}
 
 @media (max-width:1200px) {
     .hero-home {
@@ -580,6 +676,43 @@
     
             .club-info {
                 padding: 20px;
+            }
+        }
+    }
+
+    .contacto-hero {
+        background-color: $color-principal;
+        padding: 100px 100px 30px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 500px;
+        width: 100%;
+        margin-bottom: 450px;
+        position: absolute;
+        top: 0;
+    
+        .titulo-hero {
+            color: $color-blanco;
+            font-size: 26px;
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 100px;
+        }
+    
+        .contacto-form {
+            background-color: $color-blanco;
+            border-radius: 8px;
+            padding: 20px;
+            position: unset;
+    
+            .titulo-formulario {
+                margin-bottom: 30px;
+            }
+    
+            .form-floating {
+                margin: 10px 0px 10px 0px;
             }
         }
     }
